@@ -1,0 +1,74 @@
+[
+  {
+    "id": "gloria2025",
+    "source": "https://www.sonymusic.com.tw/album/i-am-gloria/",
+    "image": "https://cdn-p.smehost.net/sites/d563907ee0c84f41b15553bfb3eb554c/wp-content/uploads/2026/10/G.E.M.%E9%84%A7%E7%B4%AB%E6%A3%8B-I-AM-GLORIA-%E7%B9%81%E9%AB%94%E7%89%88%E5%B0%81%E9%9D%A2.jpg",
+    "file": "assets/covers/gloria2025.jpg",
+    "bytes": 1387178,
+    "rights": "© respective record label / artist. Classroom display; not an open-content license."
+  },
+  {
+    "id": "mysecret",
+    "source": "https://music.apple.com/us/album/mysecret/6776100461",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/69/df/dd/69dfdddd-449b-7e9b-deee-c07d4ff7ad85/887158129667.jpg/600x600bb.jpg",
+    "file": "assets/covers/mysecret.jpg",
+    "bytes": 153684,
+    "rights": "© respective record label / artist. Classroom display; not an open-content license."
+  },
+  {
+    "id": "xposed",
+    "source": "https://music.apple.com/us/album/xposed/6775778892",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/08/81/e6/0881e6e7-a51c-1a5b-bdae-c379f67dce79/887158129650.jpg/600x600bb.jpg",
+    "file": "assets/covers/xposed.jpg",
+    "bytes": 68323,
+    "rights": "© respective record label / artist. Classroom display; not an open-content license."
+  },
+  {
+    "id": "cityzoo",
+    "source": "https://www.iamgem.com/motiandongwuyuan/",
+    "image": "https://www.iamgem.com/wp-content/uploads/2022/03/zhuanji.jpg",
+    "file": "assets/covers/cityzoo.jpg",
+    "bytes": 96687,
+    "rights": "© respective record label / artist. Classroom display; not an open-content license."
+  },
+  {
+    "id": "revelation",
+    "source": "https://www.iamgem.com/qishilu/",
+    "image": "https://www.iamgem.com/wp-content/uploads/2022/08/qishilu-fan.jpg",
+    "file": "assets/covers/revelation.jpg",
+    "bytes": 120994,
+    "rights": "© respective record label / artist. Classroom display; not an open-content license."
+  },
+  {
+    "id": "heartbeat",
+    "source": "https://music.apple.com/us/album/1053567923",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/bb/c7/55bbc782-299e-7f24-bc4a-ae129e6d8030/mzm.rpqttxch.jpg/600x600bb.jpg",
+    "file": "assets/covers/heartbeat.jpg",
+    "bytes": 148306,
+    "rights": "© respective record label / artist. Classroom display; not an open-content license."
+  },
+  {
+    "id": "superpower",
+    "source": "https://www.iamgem.com/chaonengli/",
+    "image": "https://www.iamgem.com/wp-content/uploads/2022/04/%E8%B6%85%E8%83%BD%E5%8A%9B.jpg",
+    "file": "assets/covers/superpower.jpg",
+    "bytes": 143205,
+    "rights": "© respective record label / artist. Classroom display; not an open-content license."
+  },
+  {
+    "id": "paint",
+    "source": "https://music.apple.com/ng/album/1113673320",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/48/74/fe/4874fe6c-d349-36d2-aa5b-d76b5f1f764f/190374733809.jpg/600x600bb.jpg",
+    "file": "assets/covers/paint.jpg",
+    "rights": "© Hummingbird Music Ltd. Classroom display; not an open-content license.",
+    "bytes": 66692
+  },
+  {
+    "id": "lightyears",
+    "source": "https://music.apple.com/us/song/1190070744",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/23/65/4a/23654a78-6769-a2ec-bfd7-e032ea71c65a/191018640989.jpg/600x600bb.jpg",
+    "file": "assets/covers/lightyears.jpg",
+    "bytes": 70793,
+    "rights": "© Hummingbird Music Ltd. Classroom display; not an open-content license."
+  }
+]

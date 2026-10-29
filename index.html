@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f8f6f0">
+  <meta name="description" content="GEMVERSE 棋遇宇宙：一个关于邓紫棋、音乐与热爱的非官方应援站。探索作品、舞台、生涯故事，留下你的应援。">
+  <title>棋遇宇宙 GEMVERSE · G.E.M. 邓紫棋应援站</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="config.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳转到正文</a>
+  <div class="reading-progress" aria-hidden="true"><span id="readingProgress"></span></div>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="棋遇宇宙首页"><span class="brand-mark">✦</span><span>GEMVERSE<small>棋 遇 宇 宙</small></span></a>
+    <nav class="nav" id="mainNav" aria-label="主导航">
+      <a class="active" href="#home">首页</a><a href="#music">作品星球</a><a href="#journey">时光轨迹</a><a href="#stage">舞台瞬间</a><a href="#fanlab">应援实验室</a><a href="#wall">留言星河</a>
+    </nav>
+    <div class="header-actions"><button class="icon-button" id="themeToggle" aria-label="切换深色主题" title="切换主题">☾</button><button class="nav-toggle icon-button" id="navToggle" aria-label="展开导航" aria-controls="mainNav" aria-expanded="false">☰</button><a class="header-cta" href="#wall">为热爱发光 <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <main id="main">
+    <section class="hero section-width" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="live-dot"></span> G.E.M. FAN UNIVERSE <span class="eyebrow-line"></span> EST. 2008</p>
+        <h1>把热爱，<br>唱成<span class="sun-word">光<svg viewBox="0 0 160 21" aria-hidden="true"><path d="M3 14Q65-3 155 7M26 20Q89 9 148 13"/></svg></span><span class="hero-period">。</span></h1>
+        <p class="hero-description">从耳机里的一首歌，到万人合唱的星海。<br>这里收藏邓紫棋的音乐，也收藏每一份因她而闪耀的热爱。</p>
+        <div class="hero-buttons"><a class="button primary" href="#music">开启音乐旅程 <span>↗</span></a><a class="button text-button" href="#wall"><span class="outline-heart">♡</span> 留下我的应援</a></div>
+        <div class="hero-facts"><div><strong>12<span> 首</span></strong><small>精选入门作品</small></div><div><strong>06<span> 帧</span></strong><small>珍藏舞台记忆</small></div><div><strong>∞</strong><small>关于热爱的可能</small></div></div>
+        <p class="unofficial-note">✧ 一个由热爱出发的非官方粉丝创作 · 课堂展示</p>
+      </div>
+      <div class="hero-visual">
+        <span class="hero-orbit" aria-hidden="true"></span><span class="floating-star star-a" aria-hidden="true">✧</span><span class="floating-star star-b" aria-hidden="true">✦</span>
+        <figure class="hero-stage"><img src="assets/photos/concert-04.webp" alt="2015年香港演唱会，邓紫棋穿着红色披肩与银黑舞台服，高举麦克风" fetchpriority="high" width="1349" height="1600"><div class="stage-badge"><span class="live-dot"></span> LIVE ARCHIVE <span>2015</span></div><div class="hero-image-type">ONE VOICE.<br><span>A WHOLE UNIVERSE.</span></div><figcaption>香港 · 2015.01.17 / 摄影：茂木木 · CC BY-SA 4.0</figcaption></figure>
+        <div class="hero-ticket"><span>ADMIT ONE</span><strong>你，也是这片<br>星海的一部分。</strong><div class="ticket-barcode" aria-hidden="true"></div><small>GEMVERSE / FOREVER IN TUNE</small></div>
+        <div class="hero-sticker"><img src="assets/art/rock-star.webp" alt="红披肩舞台造型的邓紫棋Q版AI同人插画" width="1024" height="1024"><span>小小身体 · 大大能量</span></div>
+      </div>
+    </section>
+    <div class="ticker" aria-hidden="true"><div>GET EVERYBODY MOVING <span>✦</span> MUSIC CONNECTS US <span>✦</span> 在音乐里相遇 <span>✦</span> GET EVERYBODY MOVING <span>✦</span> MUSIC CONNECTS US <span>✦</span> 在音乐里相遇 <span>✦</span></div></div>
+
+    <section class="section section-width" id="music">
+      <div class="section-heading"><div><p class="eyebrow">01 / MUSIC PLANET</p><h2>总有一首，<span class="serif">唱中你的心事。</span></h2></div><p>从温柔耳语到全力呐喊，<br>找到此刻属于你的声音。</p></div>
+      <div class="music-toolbar"><div class="pills" id="moodFilters" aria-label="按心情筛选"><button class="pill active" data-mood="all" aria-pressed="true">全部作品</button><button class="pill" data-mood="心动" aria-pressed="false">♡ 心动</button><button class="pill" data-mood="治愈" aria-pressed="false">✧ 治愈</button><button class="pill" data-mood="释怀" aria-pressed="false">☁ 释怀</button><button class="pill" data-mood="能量" aria-pressed="false">ϟ 能量</button></div><label class="search-box"><span aria-hidden="true">⌕</span><span class="sr-only">搜索歌曲或专辑</span><input id="musicSearch" type="search" placeholder="搜索歌曲 / 专辑" maxlength="60"></label></div>
+      <div class="music-meta"><span id="musicCount" role="status">12 首精选作品</span><button class="small-button" id="favoritesOnly" aria-pressed="false">♡ 我的收藏 <span id="favoriteCount">0</span></button></div>
+      <div class="music-grid" id="musicGrid"></div><p class="empty-state" id="musicEmpty" hidden>这个星球暂时没有匹配的歌曲。试试换个关键词，或收藏一首喜欢的作品。</p>
+      <p class="section-footnote">点开作品查看聆听入口与故事。心情标签与推荐语为本站编辑；作品年份按原始版本记录。</p>
+      <div class="mood-note"><span class="mood-note-icon">✺</span><div><small>TODAY'S LITTLE RITUAL</small><h3>今天的你，想听见怎样的答案？</h3><p>选一种心情，让一首歌来陪你。</p></div><div class="mood-buttons"><button class="button secondary" data-recommend="治愈">想被治愈</button><button class="button secondary" data-recommend="能量">需要勇气</button><button class="button secondary" data-recommend="心动">有点想念</button></div></div>
+    </section>
+
+    <section class="lyrics-section" id="lyrics"><div class="section-width lyrics-layout"><div class="lyrics-intro"><p class="eyebrow">02 / WORDS THAT STAY</p><h2>有些字句，<br>会替我们<span class="serif">发光。</span></h2><p>一点歌词，一段共鸣。<br>把完整的故事，留在歌里听。</p><div class="quote-controls"><button class="round-button" id="quotePrev" aria-label="上一句">←</button><span id="quoteIndex">01 / 04</span><button class="round-button" id="quoteNext" aria-label="下一句">→</button></div></div><article class="quote-card" id="quoteCard" aria-live="polite"><span class="quote-mark" aria-hidden="true">“</span><span class="mini-label">LYRIC FRAGMENT / 歌词短摘</span><blockquote id="quoteText"></blockquote><div class="quote-rule"></div><p id="quoteSong"></p><p class="quote-reflection" id="quoteReflection"></p><a class="quote-link" id="quoteSource" href="https://www.iamgem.com/" target="_blank" rel="noopener noreferrer">查看作品与出处 ↗</a><span class="quote-sparkle" aria-hidden="true">✦</span></article></div></section>
+
+    <section class="section section-width" id="journey"><div class="section-heading"><div><p class="eyebrow">03 / THE JOURNEY</p><h2>一颗星，<span class="serif">一步一步发亮。</span></h2></div><p>舞台之外，是一位创作歌手<br>持续写下自己的故事。</p></div><div class="journey-layout"><div class="journey-aside"><span class="journey-big">G.E.M.</span><p>GET EVERYBODY<br>MOVING</p><div class="journey-sticker"><img src="assets/art/guitar-dream.webp" alt="穿白色外套、弹银色吉他的Q版AI同人插画" loading="lazy" width="1024" height="1024"></div><p class="aside-note">音乐，是一路向前的坐标。</p><div class="pills era-pills" id="eraFilters" aria-label="时间轴阶段"><button class="pill active" data-era="all" aria-pressed="true">全部</button><button class="pill" data-era="early" aria-pressed="false">初见 2008—2015</button><button class="pill" data-era="grow" aria-pressed="false">蜕变 2016—2020</button><button class="pill" data-era="now" aria-pressed="false">新章 2022—2026</button></div></div><div class="timeline" id="timeline"></div></div></section>
+
+    <section class="stage-section" id="stage"><div class="section-width"><div class="section-heading"><div><p class="eyebrow">04 / LIVE IN THE MOMENT</p><h2>把这一刻，<span class="serif">按下珍藏。</span></h2></div><p>六帧真实演出影像。<br>点击放大，重返那些发光的夜晚。</p></div><div class="photo-grid" id="photoGrid"></div><p class="section-footnote">摄影作品均保留作者与许可说明；照片年份为拍摄年份。完整署名可在大图与「资料来源」查看。</p></div></section>
+
+    <section class="section section-width" id="fanlab"><div class="section-heading"><div><p class="eyebrow">05 / FAN LAB</p><h2>热爱，<span class="serif">也可以很好玩。</span></h2></div><p>把喜欢变成一点小小的创造。<br>这是属于你的应援实验室。</p></div><div class="fanlab-grid"><article class="cheer-card"><div class="card-topline"><span class="mini-label">01 / LIGHT IT UP</span><span class="local-tag">本机应援</span></div><h3>为她，点亮一束光。</h3><p>点击荧光棒，让今天的热爱亮起来。</p><button class="lightstick-button" id="cheerButton" aria-label="点亮一次应援荧光棒"><span class="lightstick-glow"></span><span class="lightstick-head">✦</span><span class="lightstick-handle"></span><span class="lightstick-ring"></span></button><div class="cheer-total"><strong id="cheerCount">0</strong><span>次属于你的闪耀</span></div><button class="button secondary" id="checkinButton">✦ 今日打卡</button><p class="tiny" id="checkinInfo" aria-live="polite">本机记录 · 每个自然日可打卡一次</p></article><article class="fan-card-maker"><div class="card-topline"><span class="mini-label">02 / YOUR FAN PASS</span><span class="local-tag">AI 同人形象</span></div><h3>做一张专属应援卡。</h3><p>选个舞台造型，带走你的热爱纪念。</p><div class="outfit-picker" id="outfitPicker" aria-label="选择应援卡造型"><button class="outfit active" data-outfit="rock-star" aria-pressed="true"><img src="assets/art/rock-star.webp" alt="" loading="lazy" width="1024" height="1024"><span>摇滚红披肩</span></button><button class="outfit" data-outfit="silver-stage" aria-pressed="false"><img src="assets/art/silver-stage.webp" alt="" loading="lazy" width="1024" height="1024"><span>银色舞台光</span></button><button class="outfit" data-outfit="guitar-dream" aria-pressed="false"><img src="assets/art/guitar-dream.webp" alt="" loading="lazy" width="1024" height="1024"><span>吉他小宇宙</span></button></div><label class="field-label" for="fanName">卡片上的昵称</label><input class="text-input" id="fanName" maxlength="12" placeholder="例如：紫色小星星" autocomplete="nickname"><button class="button primary wide" id="downloadCard">生成并下载应援卡 <span>↓</span></button><p class="tiny">PNG 图片 · 原创应援文案 · 不含个人联系方式</p></article><article class="quiz-teaser"><div><span class="mini-label">03 / HOW WELL DO YOU KNOW G.E.M.?</span><h3>你的「棋」妙知识，<br>有几分？</h3><p>5 道关于音乐与生涯的小题。<br>答案有来源，答完领取电子徽章。</p><button class="button dark" id="openQuiz">开始小挑战 ↗</button></div><span class="quiz-doodle" aria-hidden="true">?<span>✧</span></span><small id="quizBest">随时重玩 · 认识她多一点</small></article></div></section>
+
+    <section class="wall-section" id="wall"><div class="section-width"><div class="section-heading"><div><p class="eyebrow">06 / OUR LITTLE GALAXY</p><h2>把你的声音，<span class="serif">留在这片星河。</span></h2></div><p>是某首歌救回了坏心情，<br>还是某个舞台让你开始相信自己？</p></div><div class="wall-layout"><div class="wall-form-panel"><div class="wall-mode" id="wallMode"><span class="live-dot"></span> 本机留言模式</div><form id="messageForm"><label class="field-label" for="messageName">你的昵称</label><input class="text-input" id="messageName" maxlength="16" placeholder="给自己一个星星名字" required autocomplete="nickname"><label class="field-label" for="messageBody">想说给她的话</label><textarea id="messageBody" maxlength="200" minlength="2" rows="4" placeholder="写下你的故事，或一句小小的应援……" required aria-describedby="messageHint"></textarea><div class="form-bottom"><span id="messageHint">文明应援 · <span id="messageLength">0</span>/200</span><label class="color-label">星星颜色 <select id="messageColor" aria-label="留言卡片颜色"><option value="lavender">紫</option><option value="peach">桃</option><option value="mint">绿</option></select></label></div><button class="button primary wide" type="submit">让这颗星星发光 <span>✦</span></button></form><p class="tiny" id="localWallNotice">留言仅保存在此浏览器，同一设备刷新后仍可查看。可导出备份；跨设备共享留言可启用下方 GitHub 留言区。</p><div class="wall-tools"><button class="small-button" id="exportMessages">导出我的留言 ↓</button><button class="small-button" id="clearMessages">清空本机留言</button></div></div><div><div class="wall-list-heading"><h3>每一份喜欢，都有回声。</h3><span id="messageCount">示例星星</span></div><div class="message-grid" id="messageGrid" aria-live="polite"></div><p class="tiny">带「示例」标记的卡片是设计演示内容，不代表真实访客发言。</p></div></div><div class="shared-wall" id="sharedWall"><div class="shared-wall-heading"><h3>跨设备留言区</h3><p id="giscusStatus">站长启用 GitHub Discussions 后，同学们可在这里看到彼此的留言。</p></div><div id="giscusContainer"></div><a class="small-button" id="giscusSetupLink" href="docs/shared-comments.md" target="_blank" rel="noopener">查看共享留言设置指南 ↗</a></div></div></section>
+  </main>
+  <footer class="footer section-width"><div class="footer-top"><a class="brand" href="#home"><span class="brand-mark">✦</span><span>GEMVERSE<small>棋 遇 宇 宙</small></span></a><p>因为音乐相遇，因为热爱发光。<br><span>A little universe for a voice we love.</span></p><div class="footer-links"><a href="https://www.iamgem.com/" target="_blank" rel="noopener noreferrer">官方主页 ↗</a><button class="link-button" id="openSources">资料与图片来源 ↗</button><button class="link-button" id="openAbout">关于这个小宇宙 ↗</button></div></div><div class="footer-bottom"><span>非官方粉丝网站 · 课程设计 / 2026</span><span>资料核验：2026.10.29 · 卡通形象为 AI 同人创作</span><a href="#home">回到顶部 ↑</a></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <dialog aria-label="作品详情" id="songDialog" class="dialog song-dialog"><button class="dialog-close icon-button" data-close aria-label="关闭作品详情">×</button><div id="songDetail"></div></dialog>
+  <dialog aria-label="舞台照片" id="photoDialog" class="dialog photo-dialog"><button class="dialog-close icon-button" data-close aria-label="关闭大图">×</button><figure><img id="photoFull" alt=""><figcaption id="photoCaption"></figcaption></figure><div class="photo-controls"><button class="round-button" id="photoPrev" aria-label="上一张照片">←</button><span id="photoIndex"></span><button class="round-button" id="photoNext" aria-label="下一张照片">→</button></div></dialog>
+  <dialog aria-label="棋妙小测验" id="quizDialog" class="dialog quiz-dialog"><button class="dialog-close icon-button" data-close aria-label="关闭测验">×</button><div id="quizContent"></div></dialog>
+  <dialog aria-label="网站说明" id="infoDialog" class="dialog info-dialog"><button class="dialog-close icon-button" data-close aria-label="关闭说明">×</button><div id="infoContent"></div></dialog>
+  <noscript><div class="noscript">请启用浏览器 JavaScript，以查看作品、照片与互动功能。</div></noscript>
+</body>
+</html>

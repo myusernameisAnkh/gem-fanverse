@@ -1,0 +1,80 @@
+[
+  {
+    "file": "assets/photos/concert-01.jpg",
+    "title": "File:2017年4月1日廣州Queen of Hearts 1.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2017%E5%B9%B44%E6%9C%881%E6%97%A5%E5%BB%A3%E5%B7%9EQueen_of_Hearts_1.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/b/bc/2017%E5%B9%B44%E6%9C%881%E6%97%A5%E5%BB%A3%E5%B7%9EQueen_of_Hearts_1.jpg",
+    "artist": "茂木木",
+    "date": "2017-04-01",
+    "description": "​2017年4月1日廣州Queen of Hearts 1",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "displayFile": "assets/photos/concert-01.webp",
+    "displayChanges": "Resized and converted to WebP for display; CSS crop; original file retained."
+  },
+  {
+    "file": "assets/photos/concert-02.jpg",
+    "title": "File:2017年4月1日廣州Queen of Hearts 2.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:2017%E5%B9%B44%E6%9C%881%E6%97%A5%E5%BB%A3%E5%B7%9EQueen_of_Hearts_2.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/9/95/2017%E5%B9%B44%E6%9C%881%E6%97%A5%E5%BB%A3%E5%B7%9EQueen_of_Hearts_2.jpg",
+    "artist": "茂木木",
+    "date": "2017-04-01",
+    "description": "​2017年4月1日廣州Queen of Hearts 2",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "displayFile": "assets/photos/concert-02.webp",
+    "displayChanges": "Resized and converted to WebP for display; CSS crop; original file retained."
+  },
+  {
+    "file": "assets/photos/concert-04.jpg",
+    "title": "File:GEM HK Rolling in the deep.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:GEM_HK_Rolling_in_the_deep.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/8/81/GEM_HK_Rolling_in_the_deep.JPG",
+    "artist": "茂木木",
+    "date": "2015-01-17 23:15:33",
+    "description": "2015 Hongkong concert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "displayFile": "assets/photos/concert-04.webp",
+    "displayChanges": "Resized and converted to WebP for display; CSS crop; original file retained."
+  },
+  {
+    "file": "assets/photos/concert-05.jpg",
+    "title": "File:Gem Tang Singing.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Gem_Tang_Singing.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/7/76/Gem_Tang_Singing.jpg",
+    "artist": "茂木木",
+    "date": "2014-05-24 20:31:58",
+    "description": "Gem Tang talking in XXX live Wuhan May 24th, 2014",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "displayFile": "assets/photos/concert-05.webp",
+    "displayChanges": "Resized and converted to WebP for display; CSS crop; original file retained."
+  },
+  {
+    "file": "assets/photos/concert-06.jpg",
+    "title": "File:Gem singing with guitar.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Gem_singing_with_guitar.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Gem_singing_with_guitar.JPG",
+    "artist": "茂木木",
+    "date": "2014-07-06 21:03:55",
+    "description": "singing at XXX live 2014 shanghai",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "displayFile": "assets/photos/concert-06.webp",
+    "displayChanges": "Resized and converted to WebP for display; CSS crop; original file retained."
+  },
+  {
+    "file": "assets/photos/concert-07.jpg",
+    "title": "File:邓紫棋 武汉演唱会.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:%E9%82%93%E7%B4%AB%E6%A3%8B_%E6%AD%A6%E6%B1%89%E6%BC%94%E5%94%B1%E4%BC%9A.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/f/f3/%E9%82%93%E7%B4%AB%E6%A3%8B_%E6%AD%A6%E6%B1%89%E6%BC%94%E5%94%B1%E4%BC%9A.jpg",
+    "artist": "GEM_Ady (GEM_brilliant)",
+    "date": "2017-05-28 20:22:35",
+    "description": "​邓紫棋 武汉演唱会",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5",
+    "displayFile": "assets/photos/concert-07.webp",
+    "displayChanges": "Resized and converted to WebP for display; CSS crop; original file retained."
+  }
+]
